@@ -20,7 +20,7 @@ return ReactDOM.createPortal(
         name={name}
         buttonComponent={
             <button
-            className="flex h-7 w-7 items-center justify-center rounded-full bg-blue-primary text-white hover:bg-blue-600"
+            className="flex h-7 w-7 items-center justify-center rounded-full bg:pink-50 text-white hover:bg-pink-300"
             onClick={onClose}
             >
             <X size={18} />

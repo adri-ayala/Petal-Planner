@@ -42,7 +42,7 @@ const Teams = () => {
           slots={{
             toolbar: CustomToolbar,
           }}
-          className={dataGridClassNames}
+          className={'bg-pink-50 ${dataGridClassNames}'}
           sx={dataGridSxStyles(isDarkMode)}
         />
       </div>

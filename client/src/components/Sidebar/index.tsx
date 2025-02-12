@@ -8,6 +8,8 @@ import { useGetProjectsQuery } from "@/state/api";
 import { usePathname } from "next/navigation";
 import React, { useState } from "react";
 
+
+
 const Sidebar = () => {
     const[showProjects,setShowProjects] = useState(true);
     const[showPriority,setShowPriority] = useState(true);
@@ -56,8 +58,8 @@ const Sidebar = () => {
                 <Image
             src="/lock.png"
             alt="Logo"
-            width={15}
-            height={15}/>
+            width={10}
+            height={10}/>
             <p className="text-xs text-gray-500">Private</p>
             </div>
             </div>

@@ -27,19 +27,19 @@ const ProjectHeader = ({ activeTab, setActiveTab }: Props) => {
         />
         
         <div className="pb-6 pt-6 lg:pb-4 lg:pt-8">
-        <Header name="Product Design Development"
+<Header 
+    name="Project Manager"
+    buttonComponent={ 
+    <button
+        className="flex items-center rounded-md bg-pink-100 px-3 py-2 text-pink-400 hover:bg-pink-200"
+        onClick={() => setIsModalNewProjectOpen(true)}
+    >
+        <PlusSquare className="mr-2 h-5 w-5" /> New Board
+    </button>
+    }
+/>
+</div>
 
-        buttonComponent={ 
-            <button
-            className="flex items-center rounded-md bg-blue-primary px-3 py-2 text-white hover:bg-blue-600"
-            onClick={() => setIsModalNewProjectOpen(true)}
-            >
-                <PlusSquare className="mr-2 h-5 w-5" /> New Board
-            
-            </button>
-        }
-        />
-        </div>
 
         {/*Tabs*/}
         <div className="flex flex-wrap-reverse gap-2 border-y border-gray-200 pb-[8px] pt-2 dark:border-stroke-dark md:items-center">

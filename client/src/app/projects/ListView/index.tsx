@@ -25,7 +25,7 @@ const ListView = ({ id, setIsModalNewTaskOpen }: Props) => {
           name="List"
           buttonComponent={
             <button
-              className="flex items-center rounded bg-blue-primary px-3 py-2 text-white hover:bg-blue-600"
+              className="flex items-center rounded bg-pink-100 px-3 py-2 text-pink-400 hover:bg-pink-200"
               onClick={() => setIsModalNewTaskOpen(true)}
             >
               Add Task

@@ -22,12 +22,13 @@ const CustomToolbar = () => (
 );
 
 const columns: GridColDef[] = [
-  { field: "userId", headerName: "ID", width: 100 },
-  { field: "username", headerName: "Username", width: 150 },
+  { field: "userId", headerName: "ID", width: 100, headerClassName: 'bg-pink-50'},
+  { field: "username", headerName: "Username", width: 150, headerClassName: 'bg-pink-50'},
   {
     field: "profilePictureUrl",
     headerName: "Profile Picture",
     width: 100,
+    headerClassName: 'bg-pink-50',
     renderCell: (params) => (
       <div className="flex h-full w-full items-center justify-center">
         <div className="h-9 w-9">
@@ -63,7 +64,7 @@ const Users = () => {
           slots={{
             toolbar: CustomToolbar,
           }}
-          className={dataGridClassNames}
+          className={`bg-pink-50 ${dataGridClassNames}`}
           sx={dataGridSxStyles(isDarkMode)}
         />
       </div>
