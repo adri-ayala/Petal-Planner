@@ -10,6 +10,7 @@ import taskRoutes from "./routes/taskRoutes";
 import userRoutes from "./routes/userRoutes";
 import teamRoutes from "./routes/teamRoutes";
 
+
 /* CONFIGURATIONS */
 dotenv.config();
 const app = express();
@@ -22,14 +23,13 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cors());
 app.use("/users", userRoutes);
 app.use("/teams", teamRoutes);
+app.use("/projects", projectRoutes);
+app.use("/tasks", taskRoutes);
+
 /* ROUTES */
 app.get("/", (req, res) => {
   res.send("This is home route");
 });
-
-app.use("/projects", projectRoutes);
-app.use("/tasks", taskRoutes);
-
 
 /* SERVER */
 const port = Number(process.env.PORT) || 3000;
