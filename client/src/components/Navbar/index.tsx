@@ -55,7 +55,7 @@ return (
         
         <div className="h-6 w-6 cursor-pointer dark:text-white">
         <Image
-                        src="/settings.png"
+                        src="https://petal-s3-img.s3.us-east-1.amazonaws.com/settings.png"
                         alt="Settings"
                         width={60}
                         height={60}/> </div>
