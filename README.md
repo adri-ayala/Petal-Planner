@@ -1,6 +1,6 @@
 ## Petal Planner
 
-![Petal Planner](img/petalplannerimg.png)
+![Petal Planner](img/petalplanimg.png)
 
 
 **Petal Planner** is a full-stack task and project management application designed to help individuals and teams organize, manage, and track their tasks and projects in a simple yet efficient way. The application allows users to create and manage projects, tasks, and track progress in an intuitive interface.
