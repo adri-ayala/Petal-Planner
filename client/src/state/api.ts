@@ -162,4 +162,15 @@ export interface Project {
         }),
     }),
 });
-export const {useGetProjectsQuery, useCreateProjectMutation,useGetTasksQuery,useCreateTaskMutation,useUpdateTaskStatusMutation,useSearchQuery,useGetUsersQuery, useGetTeamsQuery,useGetTasksByUserQuery,useGetAuthUserQuery} = api;
+export const {
+    useGetProjectsQuery,
+    useCreateProjectMutation,
+    useGetTasksQuery,
+    useCreateTaskMutation,
+    useUpdateTaskStatusMutation,
+    useSearchQuery,
+    useGetUsersQuery,
+    useGetTeamsQuery,
+    useGetTasksByUserQuery,
+    useGetAuthUserQuery,
+  } = api;
