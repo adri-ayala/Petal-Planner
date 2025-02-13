@@ -46,7 +46,7 @@ const Sidebar = () => {
         {/*Team*/}
         <div className ="flex items-center gap-5 border-y-[1.5px] border-gray-200 px-8 py-4 dark:border-gray-700">
         <Image
-            src="https://petal-s3-img.s3.us-east-1.amazonaws.com/FlowerIcon.png"
+            src={'https://petal-s3-img.s3.us-east-1.amazonaws.com/FlowerIcon.png'}
             alt="Logo"
             width={60}
             height={60}/>
@@ -56,7 +56,7 @@ const Sidebar = () => {
                 </h3>
                 <div className="mt-1 flex items-start-gap-2">
                 <Image
-            src="https://petal-s3-img.s3.us-east-1.amazonaws.com/lock.png"
+            src={'https://petal-s3-img.s3.us-east-1.amazonaws.com/lock.png'}
             alt="Logo"
             width={10}
             height={10}/>
